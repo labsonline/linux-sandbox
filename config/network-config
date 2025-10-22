@@ -1,0 +1,15 @@
+network:
+  version: 2
+  ethernets:
+    oam:
+      accept-ra: true
+      dhcp4: true
+      dhcp6: true
+      mtu: 1500
+      set-name: oam
+      match:
+        macaddress: 00:00:ba:be:fa:ce
+      dhcp4-overrides:
+        route-metric: 0
+      dhcp6-overrides:
+        route-metric: 0

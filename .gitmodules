@@ -1,3 +1,6 @@
 [submodule "uboot"]
 	path = uboot
 	url = https://github.com/anselmes/u-boot.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/anselmes/linux.git
